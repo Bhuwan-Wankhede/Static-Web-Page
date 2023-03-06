@@ -1,13 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+
+
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFFAFA;
+  min-width: 800px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  display: flex;
+  justify-content: space-between;
 }
+
+header h1 {
+  padding-left: 80px;
+  font-size: 50px;
+}
+
+.header li {
+  display: inline;
+  color: black;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header ul {
+  margin-top: 50px;
+}
+
+.icons i {
+  padding: 20px;
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.head header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 45px;
+  padding: 30px;
+  margin-top: 13px;
+  margin-right: 80px;
+}
+
+.container-card {
+  display: block;
+  position: relative;
+  padding-left: 80px;
+  margin-top: 30px;
+}
+
+.container-card .hh3 {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.container-card h1 {
+  line-height: 1.0;
+  margin-top: 15px;
+  font-size: 60px;
+  font-weight: 600;
+
+}
+
+.container-card p {
+  font-size: 14px;
+  color: black;
+}
+
+.container-card input {
+  position: relative;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 35px;
+  padding: 18px;
+}
+
+.container-card button {
+  position: absolute;
+  margin-top: 30px;
+  font-size:18px;
+  border-radius: 35px;
+  padding: 19px;
+  color: #FAF9F6;
+  background-color: black;
+  cursor: pointer;
+}
+
+.container-card .foot {
+  margin-top: 30px;
+}
+
+.container-card .hb3 {
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  color: #5A5A5A;
+}
+
+ .card{
+  display:inline;
+  float: left;
+  padding: 30px;
+  margin: 10px;
+  width: 4%;
+  height: 13vh;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  color: black;
+}
+.card a{
+  color:white;
+  margin-top:7px;
+}
+.card i{
+  font-size: 30px;
+}
+
+.cardContainer img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.flexing{
+  display: grid;
+}
+.phone{
+  position: absolute;
+  text-align: center;
+  margin-top: -230px;
+  margin-left:200px; 
+
+}
+@media screen and (max-width: 1000px) {
+  .card,.head,.phone {
+     width: 100%;
+  }
+} 
